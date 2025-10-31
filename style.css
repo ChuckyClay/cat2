@@ -1,0 +1,23 @@
+.body{
+    background-color: rgba(127, 255, 212, 0.568);
+    text-align: center;
+}
+.header{
+    background-color: rgba(5, 107, 175, 0.61);
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.header li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    
+}
+.login-box{
+    background-color: rgba(0, 255, 255, 0.212);
+    width: 300px;
+    height: 250px;
+    margin:auto;
+    border-radius: 10px;
+}
