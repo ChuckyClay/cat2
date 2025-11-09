@@ -128,6 +128,7 @@
 
 .welcome h1{
     color:rgb(124, 235, 235);
+    text-shadow: #040404 0 4px 8px;
 }
 
 .welcome p{
@@ -348,6 +349,43 @@
     margin-bottom: 10px;
     font-style: oblique;
 }
+
+.contact-button{
+    background-color: #101010;
+    color: rgba(10, 206, 240, 0.875);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.contact-button:hover{
+    background-color: #07e9e9;
+    color:#040404;
+}
+.about-content h2{
+    color: #090909;
+    text-shadow: #21cfdf 0 3px 6px;
+    margin-bottom: 10px;
+}
+
+.team h2{
+    color: #090909;
+    text-shadow: #21cfdf 0 3px 6px;
+    margin-bottom: 10px;
+}
+
+.contact-cta h2{
+    color: #090909;
+    text-shadow: #21cfdf 0 3px 6px;
+    margin-bottom: 10px;
+}
+.why-choose-us h2{
+    color: #090909;
+    text-shadow: #21cfdf 0 3px 6px;
+    margin-bottom: 10px;
+}
 .features h3{
     color: #090909;
     text-shadow: #21cfdf 0 3px 6px;
@@ -390,4 +428,101 @@
 .inquiry-form button:hover{
     background-color: #07e9e9;
     color:#040404;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.info-box i {
+  font-size: 30px;
+  color: #00ffee;
+  margin-bottom: 10px;
+  text-shadow: #090909 0 3px 6px;
+}
+
+.info-box h3 {
+  color: #090909;
+  text-shadow: #21cfdf 0 3px 6px;
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.contact-form h2 {
+  color: #090909;
+  text-shadow: #21cfdf 0 3px 6px;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.contact-form button {
+    background-color: #101010;
+    color: rgba(10, 206, 240, 0.875);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover{
+    background-color: #07e9e9;
+    color:#040404;
+}
+
+.faqs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.faq-item {
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.faq-item h3, .faqs h2 {
+    margin-bottom: 10px;
+    text-shadow: #21cfdf 0 3px 6px;
+}
+
+.faq-item p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.faq-item a {
+    color: #0e7989;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
 }
