@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     }
-
+    //logout functionality
     const logoutlink=document.getElementById("logoutlink");
     if(logoutlink){
         logoutlink.addEventListener("click", function(e){
@@ -81,10 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentUser=JSON.parse(localStorage.getItem("currentUser"));
     if(currentUser && greeting){
         greeting.textContent=`Hello, ${currentUser.fullname}!`;
+        greeting.classList.add("typing");
     }
-});
 
+    const welcome=document.getElementById("welcome-h1");
+    if(welcome){
+        welcome.textContent="Welcome To Rentopia";
+        welcome.classList.add("typing");
+    }
 
+//the image slider part
 const track = document.querySelector('.image-thumbnails');
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
@@ -109,9 +115,10 @@ function updateSlider() {
     track.style.transform = `translateX(-${index * imgWidth}px)`;
 }
 
-//Auto slide every 5 seconds
+//Auto slide every 3 seconds
 setInterval(() => {
     index++;
     if(index >= total) index = 0;
     updateSlider();
-}, 4000);
+}, 3000);
+});
