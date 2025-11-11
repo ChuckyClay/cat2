@@ -130,12 +130,12 @@
     border-right: none; /* no cursor */
     
     /* Combined animation: type + erase */
-    animation: typingP 3s steps(51, end) forwards;
+    animation: typingP 3s steps(55, end) forwards;
 }
 /* Typing effect , type only, no erase*/ 
 @keyframes typingP {
     0% { width: 0ch; }
-    100% { width: 51ch; }
+    100% { width: 55ch; }
 }
 
 .navbar{
