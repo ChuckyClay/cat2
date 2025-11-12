@@ -68,7 +68,6 @@
 }
 .register-form input{
     padding: 5px;
-    border: 2;
     border-radius: 5px;
     outline: none;
 }
@@ -297,7 +296,7 @@
     justify-items: center;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
     .homes-grid{
         grid-template-columns: repeat(2, 1fr);
     }
