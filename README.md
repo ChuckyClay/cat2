@@ -10,3 +10,7 @@ Description: Rentopia is a web-based platform that simplifies renting and bookin
              It connects tenants with verified property listings and trusted agents,
              providing a seamless,
              fast, and secure rental experience.
+
+click this link to view the web:
+
+https://chuckyclay.github.io/Rentopia/
